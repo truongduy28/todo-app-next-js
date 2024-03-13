@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TODO App with Next.js 🚀
 
-## Getting Started
+Welcome to the TODO App built with Next.js! This project leverages the power of NextJS for both server and client-side rendering, ensuring a seamless and efficient user experience. The UI is crafted using NextUI, and data is stored in a MongoDB database.
 
-First, run the development server:
+## Live Demo 🚀
+Check out the live demo [here](https://basic-todo-nextjs.vercel.app/).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tech Stack 💻
+- **NextJS (Server - Client):** A React framework for building efficient and scalable web applications.
+- **NextUI:** A sleek UI framework for Next.js that enhances the visual appeal of your application.
+- **MongoDB:** A NoSQL database for flexible and scalable data storage.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Preview 📺
+![TODO App Preview](https://github.com/truongduy28/todo-app-next-js/assets/88228203/ac91a057-7a45-4123-bd4f-8a255cddb201)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage 🛠️
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/truongduy28/todo-app-next-js.git  
+  
+2. Navigate to the project directory:
+   ```bash
+   cd todo-app-next-js  
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Replace the value of the variable NEXT_PUBLIC_MONGO_URI in your .env.local file with your actual MongoURI.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+4. Install dependencies:
+   ```bash
+   yarn install  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Start the application:
+   ```bash
+   yarn start  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Now your TODO App is up and running! Visit http://localhost:3000 in your browser to start managing your tasks.
 
-## Deploy on Vercel
+Feel free to contribute, report issues, or suggest improvements. Happy coding! 🚀
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
